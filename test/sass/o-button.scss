@@ -1,0 +1,13 @@
+/**
+ * Test: Archetype/o-button.scss
+ *
+ */
+@import '../../_o-button.scss';
+
+/**
+ * Button Object Tests
+ */
+.test__o-button {
+  @extend .o-button;
+}
+

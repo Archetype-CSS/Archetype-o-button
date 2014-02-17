@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/**
+ * Test: Archetype/o-button.scss
+ *
+ */
+/*** @export "o-button" css */
+/**
+ * Button Object
+ *
+ * 1. Allow us to better style box model properties
+ * 2. Line up different sized buttons
+ * 3. Don't let buttons wrap  
+ * 4. Force buttons to inherit font styles
+ * 5. Force all elements with o-button applied to appear clickable
+ * 6. Don’t allow buttons to have underlines
+ */
+/* line 12, ../../_o-button.scss */
+.o-button, .test__o-button {
+  display: inline-block;
+  /* 1 */
+  cursor: pointer;
+  /* 5 */
+  text-align: center;
+  vertical-align: middle;
+  /* 2 */
+  white-space: nowrap;
+  /* 3 */
+  font: inherit;
+  /* 4 */
+  text-decoration: none;
+  /* 6 */
+}
+/* line 20, ../../_o-button.scss */
+.o-button, .test__o-button, .o-button:hover, .test__o-button:hover {
+  text-decoration: none;
+  /* 6 */
+}
+/* line 24, ../../_o-button.scss */
+.o-button:active, .test__o-button:active, .o-button:focus, .test__o-button:focus {
+  outline: none;
+}
+
+/**
+ * Button Object Tests
+ */
