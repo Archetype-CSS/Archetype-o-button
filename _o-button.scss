@@ -9,17 +9,17 @@
  * 5. Force all elements with o-button applied to appear clickable
  * 6. Don’t allow buttons to have underlines
  */
-.o-button {
-  display: inline-block;                          /* 1 */
-  cursor: pointer;                                /* 5 */
+.btn {
+  display: inline-block;    /* 1 */
+  cursor: pointer;    /* 5 */
   text-align: center;
-  vertical-align: middle;                         /* 2 */
-  white-space: nowrap;                            /* 3 */
-  font: inherit;                                  /* 4 */
-  text-decoration: none;                          /* 6 */
+  vertical-align: middle;   /* 2 */
+  white-space: nowrap;    /* 3 */
+  font: inherit;    /* 4 */
+  text-decoration: none;    /* 6 */
   &,
   &:hover{
-    text-decoration: none;                        /* 6 */
+    text-decoration: none;    /* 6 */
   }
   &:active,
   &:focus{
