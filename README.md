@@ -7,7 +7,7 @@ Archetype object for building button components
   * Git: `git clone https://github.com/Archetype-CSS/Archetype-o-button.git`
 
 ## Use
-  * `.btn` - object styles for building button components
+  * `.o-button` - object styles for building button components
   
 ## Run the Test Locally
 
