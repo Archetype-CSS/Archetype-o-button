@@ -1,6 +1,6 @@
-/*** @export "o-button" css */
+/*** @export "Archetype-o-button" css */
 /**
- * Button Object
+ * Archetype Button Object
  *
  * 1. Allow us to better style box model properties
  * 2. Line up different sized buttons
@@ -9,7 +9,7 @@
  * 5. Force all elements with o-button applied to appear clickable
  * 6. Don’t allow buttons to have underlines
  */
-.btn {
+.o-button {
   display: inline-block;    /* 1 */
   cursor: pointer;    /* 5 */
   text-align: center;
