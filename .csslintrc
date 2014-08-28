@@ -20,7 +20,7 @@
   "font-faces": true,
   "floats": true,
   "star-property-hack": true,
-  "outline-none": true,
+  "outline-none": false,
   "import": true,
   "ids": true,
   "underscore-property-hack": true,

@@ -1,19 +1,19 @@
-# o-button [![Build Status](https://secure.travis-ci.org/Archetype-CSS/o-button.png?branch=master)](http://travis-ci.org/Archetype-CSS/o-button) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# Archetype-o-button [![Build Status](https://secure.travis-ci.org/Archetype-CSS/Archetype-o-button.png?branch=master)](http://travis-ci.org/Archetype-CSS/Archetype-o-button) [![Dependency Status](https://gemnasium.com/Archetype-CSS/Archetype-o-button.svg)](https://gemnasium.com/Archetype-CSS/Archetype-o-button) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Archetype object for building button components
 
 ## Installation
-  * [Bower](http://bower.io): {{coming soon}}
-  * Git: `git clone https://github.com/Archetype-CSS/o-button.git`
+  * [Bower](http://bower.io): `bower install Archetype-o-button`
+  * Git: `git clone https://github.com/Archetype-CSS/Archetype-o-button.git`
 
 ## Use
-  * `o-button` - object styles for building button components
+  * `.btn` - object styles for building button components
   
 ## Run the Test Locally
 
 ```bash
-git clone https://github.com/Archetype-CSS/o-button.git
-cd o-button
+git clone https://github.com/Archetype-CSS/Archetype-o-button.git
+cd Archetype-o-button
 npm install
 grunt
 ```

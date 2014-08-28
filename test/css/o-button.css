@@ -3,9 +3,9 @@
  * Test: Archetype/o-button.scss
  *
  */
-/*** @export "o-button" css */
+/*** @export "Archetype-o-button" css */
 /**
- * Button Object
+ * Archetype Button Object
  *
  * 1. Allow us to better style box model properties
  * 2. Line up different sized buttons
@@ -15,7 +15,7 @@
  * 6. Don’t allow buttons to have underlines
  */
 /* line 12, ../../_o-button.scss */
-.o-button, .test__o-button {
+.o-button {
   display: inline-block;
   /* 1 */
   cursor: pointer;
@@ -31,12 +31,12 @@
   /* 6 */
 }
 /* line 20, ../../_o-button.scss */
-.o-button, .test__o-button, .o-button:hover, .test__o-button:hover {
+.o-button, .o-button:hover {
   text-decoration: none;
   /* 6 */
 }
 /* line 24, ../../_o-button.scss */
-.o-button:active, .test__o-button:active, .o-button:focus, .test__o-button:focus {
+.o-button:active, .o-button:focus {
   outline: none;
 }
 
